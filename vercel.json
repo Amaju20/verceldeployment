@@ -1,0 +1,12 @@
+
+
+@channel
+
+{
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "src/index.js"
+        }
+    ]
+}
