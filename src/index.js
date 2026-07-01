@@ -8,7 +8,7 @@ import cors from "cors"
 dotenv.config()
 const app = express()
 
-connectDB(process.env.MONGODB_URI_7).then(() => {
+connectDB(process.env.MONGODB_URI_TEST).then(() => {
     console.log("Database connected successfully")
 }).catch((error) => {
     console.log(error)
